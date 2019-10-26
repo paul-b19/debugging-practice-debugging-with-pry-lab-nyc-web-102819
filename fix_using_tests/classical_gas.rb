@@ -2,10 +2,14 @@ class GasStation
 
   attr_reader :brand, :unleaded_price
 
-  def initialize(brand, unleaded_price)
-    @brand = brand
-    @unleaded_price = unleaded_price
-  end
+  #def initialize(brand, unleaded_price)
+  #  @brand = brand
+  #  @unleaded_price = unleaded_price
+  #end
+  
+  @brand = brand
+  @unleaded_price = unleaded_price
+
 
 end
 
