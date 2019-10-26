@@ -3,6 +3,7 @@ class GasStation
   attr_reader :brand, :unleaded_price
 
   #def initialize(brand, unleaded_price)
+  def dinobones(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
   end
