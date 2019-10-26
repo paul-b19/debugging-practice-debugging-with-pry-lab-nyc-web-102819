@@ -9,6 +9,6 @@ class GasStation
 
 end
 
-petrol_petes = GasStation.initialize("Petrol Pete's", 50)
-seashore_shell = GasStation.initialize("The Seashore Shell", 40)
-dinobones = GasStation.initialize("Dino Bones Gas and Grill", 60)
+petrol_petes = GasStation.new("Petrol Pete's", 50)
+seashore_shell = GasStation.new("The Seashore Shell", 40)
+dinobones = GasStation.new("Dino Bones Gas and Grill", 100)
